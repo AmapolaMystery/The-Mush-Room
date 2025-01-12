@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mush-Room</title>
+    <link rel="icon" type="image/x-icon" href="mushroom emoji.png">
+  </head>
+<body>
+
+        <div id="container"><div id="header" style="margin-bottom: 10px; height: 197px;"></div>
+            <div id="headerArea">
+                
+                
+            <nav id="navbar"><ul>
+                <li><a href="../Splash.html">🍄</a></li>
+                <li><a href="../Landing Pad.html">Landing Pad</a></li>
+                <li><a href="../Blog/Blog.html">Blog</a></li>
+                <li><a href="../Gallery/Gallery.html">Gallery</a></li>
+                <li><a href="../Shrines/Shrines.html">Shrines</a></li>
+                <li><a href="../About/About.html">About</a></li>
+                <li><a href="../Links.html">Useful links</a></li>
+              </ul></nav></div>
+
+            <div id="flex">
+               
+                <main>
+
+                  <details>
+                    <summary>About the author</summary>
+                    <p>Howdy! My online name is Amapola Mystery. I am an argentine trans man, and I use he/him pronouns, alongside other masculine terminology.</p>
+                    <p>I am also a creative, and enjoy various artistic activities, such as drawing, image & video editing, writing, sculpting, and animating. Don't let this list intimidate you, though: I mostly just draw and edit. I have also found some enjoyment in understading and making use of html- hence the existence of this website. I am also a casual gamer, with a small repertoire of games I've played extensively throughout the years. (More on that a few paragraphs below.)</p>
+                    <p>I've been told I'm a pretty sociable person, but the truth is that enough trial and error have helped me figure out how to come off as charming and likeable. If you've known me for long enough, you'll know I've got a few screws loose, and not just in the funny way.</p>
+                    <p>Overall, though, I'm just the type of guy who has a hard time shutting the fuck up about anything. I have too many opinions to burden the masses with. If you're interested in those, allow me to redirect you to my blog.</p>
+                  </details>
+                    
+                  <details>
+                    <summary>About the character</summary>
+                    <p>The character you've seen across the website is me! Well, not quite. I (unfortunately) don't look like that offline. You can call them Amapola, but I also like to call them Cotton.</p>
+                    <p>I created them because, back in middle school, I didn't like drawing myself as I looked like. Or at least not as much as drawing little creatures. So I made one for myself, like those artists online! Although, I must say, Cotton has gone through various iterations over time- they're far from my first fictional avatar. I can't tell you I know what species they are- they don't even want to tell <i>me,</i> little rascal!</p>
+                    <p>You could say Cotton represents many things. They represent me, they represent what I wish I was, they represent a better version of myself, they represent a mask for me to use, they represent a more marketable version of myself, they represent a version of myself that I could never be because it would imply being a ficitonal character, including all the implications it carries. And, for the best, I am not fictional. They are. So there's that.</p>
+                    <p>But among all that philosophical jargon, they're just a little guy.</p>
+                 </details>
+
+                 <details>
+                    <summary>About the website</summary>
+                    <p>The landscape of the internet gets more and more bleak with the passing years, months and weeks. I keep trying and trying different social medias and websites, but there's always one thing or another that makes it a fundamentally unenjoyable experience- wether it be the invasive advertising, the malfunctioning core features, or just a format that I cannot bring myself to enjoy. Additionally, we're all well aware of the toxicity looming over social networks at all times.</p>
+                    <p>So, to try and combat all of this, I am now trying to make my own space, tailored to my tastes and what I want to share with the world.</p>
+                    <p>I hope that this helps other people, too, make the leap towards making their own personal sites, so we can breathe fresh air into the worldwide web.</p>
+                 </details>
+
+                    <p style="font-size:20px;">Socials: <a href="http://www.youtube.com/@AmapolaMystery">YouTube</a> <a href="https://amapolamystery.tumblr.com/">Tumblr</a></p>
+
+                </main>
+                
+            </div>
+            <footer id="footer" style="margin-top: 10px;">Amapola Mystery, 2023</footer>
+        </div>
+
+<style>
+            /* these are variables that are being used in the code
+    these tended to confuse some people, so I only kept 
+    the images as variables */
+
+            :root {
+                --header-image: url('https://images.unsplash.com/photo-1503327431567-3ab5e6e79140');
+
+                /* colors */
+                --content: #43256E;
+            }
+
+            body {
+                background: url('../bg maple lake sample.png');
+                background-size: 50%;
+                font-family: Consolas;
+                margin: 0;
+                background-color: #006652;
+                color: white;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            /* below this line is CSS for the layout */
+
+            /* the "container" is what wraps your entire website */
+            /* if you want something (like the header) to be Wider than
+    the other elements, you will need to move that div outside
+    of the container */
+            #container {
+                max-width: 1000px;
+                /* this is the width of your layout! */
+                margin: 0 auto;
+                /* this centers the entire page */
+            }
+
+            /* the area below is for all links on your page
+    EXCEPT for the navigation */
+            #container a {
+                color: #006652;
+                font-weight: bold;
+                text-decoration:none;
+            }
+
+            #container a:hover {
+                color: #990000;
+                font-weight: bold;
+                text-decoration:none;
+            }
+
+            #header {
+                width: 100%;
+                color: white;
+                height: 150px;
+                background-image: var(--header-image);
+                background-size: 100%;
+            }
+
+            /* navigation section */
+            #navbar {
+                height: 40px;
+                background-color: #003333;
+                width: 100%;
+            }
+
+            #navbar ul {
+                display: flex;
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+                justify-content: space-evenly;
+            }
+
+            #navbar li {
+                padding-top: 10px;
+            }
+
+            /* navigation links*/
+            #navbar li a {
+                color: #00b38f;
+                font-weight: 800;
+                text-decoration: none;
+            }
+
+            /* navigation link when a link is hovered over */
+            #navbar li a:hover {
+                color: #990000;
+                text-decoration: none;
+            }
+
+            #flex {
+                display: flex;
+            }
+
+            /* this is the color of the main content area,
+    between the sidebars! */
+            main {
+                background-color: #00b38f;
+                flex: 1;
+                padding: 20px;
+                order: 2;
+            }
+
+            /* what's this "order" stuff about??
+    allow me to explain!
+    if you're using both sidebars, the "order" value
+    tells the CSS the order in which to display them.
+    left sidebar is 1, content is 2, and right sidebar is 3! */
+
+            */ #leftSidebar {
+                order: 1;
+            }
+
+            #rightSidebar {
+                order: 3;
+            }
+
+            footer {
+                background-color: #003333;
+                /* background color for footer */
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                text-align: center;
+                /* this centers the footer text */
+            }
+
+            h1,
+            h2,
+            h3 {
+                color: white;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            strong {
+                /* this styles bold text */
+                color: #00cca3;
+            }
+
+            /* this is just a cool box, it's the darker colored one */
+            .box {
+                background-color: #13092D;
+                border: 1px solid #ED64F5;
+                padding: 10px;
+            }
+
+            /* CSS for extras */
+
+            #topBar {
+                width: 100%;
+                height: 30px;
+                padding: 10px;
+                font-size: smaller;
+                background-color: #13092D;
+            }
+
+
+            /* BELOW THIS POINT IS MEDIA QUERY */
+
+            /* so you wanna change the width of your page? 
+    by default, the container width is 900px.
+    in order to keep things responsive, take your new height,
+    and then subtrack it by 100. use this new number as the 
+    "max-width" value below
+    */
+
+            @media only screen and (max-width: 900px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+                /* the order of the items is adjusted here for responsiveness!
+      since the sidebars would be too small on a mobile device.
+      feel free to play around with the order!
+      */
+                main {
+                    order: 1;
+                }
+
+                #leftSidebar {
+                    order: 2;
+                }
+
+                #rightSidebar {
+                    order: 3;
+                }
+
+                #navbar ul {
+                    flex-wrap: wrap;
+                }
+            }
+        </style>
+
+<style>HTML,BODY{cursor: 
+url(http://www.rw-designer.com/cursor-extern.php?id=113608),
+auto;}
+</style>
+
+<style>A:hover{cursor: 
+url(http://www.rw-designer.com/cursor-extern.php?id=113608),
+auto;}
+</style>
+
+<style>
+ul {
+  list-style-type: "🍄";
+  margin-left: 0;
+  padding: 0;
+}
+</style>
+   
+<style> 
+details > summary {
+font-size: 20px;
+}
+</style>
+
+</body>
+</html>
